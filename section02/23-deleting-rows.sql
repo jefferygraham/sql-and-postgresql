@@ -1,1 +1,1 @@
-DELETE FROM cities WHERE name = 'Toyko';
+DELETE FROM cities WHERE name = 'Toyko'; 
