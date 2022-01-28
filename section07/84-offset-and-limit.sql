@@ -1,0 +1,37 @@
+SELECT COUNT(*) FROM users;
+
+SELECT * 
+FROM users
+OFFSET 40;
+
+SELECT * 
+FROM users
+LIMIT 5;
+
+SELECT * 
+FROM products
+ORDER BY price
+LIMIT 5;
+
+SELECT * 
+FROM products
+ORDER BY price DESC
+LIMIT 5;
+
+SELECT * 
+FROM products
+ORDER BY price DESC
+LIMIT 5
+OFFSET 1;
+
+SELECT * 
+FROM products
+ORDER BY price
+LIMIT 20
+OFFSET 0;
+
+SELECT * 
+FROM products
+ORDER BY price
+LIMIT 20
+OFFSET 20;
